@@ -33,7 +33,7 @@ contactForm.addEventListener("submit", function(event) {
     const service = document.getElementById("service").value;
     const message = document.getElementById("message").value;
 
-    const whatsappNumber = "2349032924757";
+    const whatsappNumber = "2348162766467";
 
     const whatsappMessage =
         "NEW CUSTOMER ENQUIRY\n\n" +
