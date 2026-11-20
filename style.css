@@ -645,3 +645,136 @@ header {
     line-height: 1.7;
     margin-top: 15px;
 }
+/* OUR TEAM SECTION */
+.team {
+    padding: 80px 8%;
+    text-align: center;
+    background: #071426;
+}
+
+.team h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.team-intro {
+    color: #38bdf8;
+    margin-bottom: 35px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.team-card {
+    background: #102a46;
+    padding: 25px;
+    border: 1px solid #164e75;
+    border-radius: 15px;
+}
+
+.team-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.team-card p {
+    color: #cbd5e1;
+}
+/* TEAM INITIALS AVATARS */
+.team-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #164e75, #0c1e35);
+    border: 3px solid #38bdf8;
+    color: #38bdf8;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 20px rgba(56, 189, 248, 0.15);
+}
+
+.team-card {
+    transition: 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-7px);
+}
+/* CONTACT EMAIL */
+.contact-email {
+    margin: 20px auto 30px;
+    text-align: center;
+}
+
+.contact-email p {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.contact-email a {
+    color: #38bdf8;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-email a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* COMPANY LOCATION */
+.contact-location {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-location p {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.contact-location span {
+    color: #38bdf8;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* BUSINESS HOURS */
+.business-hours {
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-hours p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.business-hours span {
+    color: #38bdf8;
+    font-size: 16px;
+}
